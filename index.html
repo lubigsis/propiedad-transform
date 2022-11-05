@@ -24,9 +24,9 @@
  <!---------------------------------------------------------------PROPIEDADES------------------------------------------>       
         <main>
             <div class="contenedor-valores">
-<!----------------------------------------------------------------ROTATE-DEG------------------------------------------------> 
+<!----------------------------------------------------------------ROTATE-DEG----------EJEMPLO 1--------------------------------------> 
                 <div class="valor">
-                        <h3>transform:rotate()</h3>
+                        <h3>transform:rotate();</h3>
                         <p>Gira el elemento respecto a su posición original. El ángulo de giro viene
                             indicado en el parámetro.</p>
                             <p>Unidades: turn (0 a 1), deg (0° a 360°), grad (0 a 400), rad (0 a 6.28319).</p>                        
@@ -36,13 +36,15 @@
                         </div>                  
                         <div class="nota">
                             <h4>Ejemplo 1:</h4>
-                            <p>transform: rotate(45deg);</p>
+                            <p>transform: rotate(45deg);</br>
+                            transition: transform 1s linear;
+                            </p>
                             
                         </div>
                 </div>
-<!----------------------------------------------------------------ROTATE-RAD-----------------------------------------> 
+<!----------------------------------------------------------------ROTATE-RAD-----------EJEMPLO 2------------------------------> 
                 <div class="valor">
-                    <h3>transform:rotate()</h3>
+                    <h3>transform:rotate();</h3>
                                             
               
                     <div class="figura dos">
@@ -50,28 +52,32 @@
                     </div>                  
                     <div class="nota">
                         <h4>Ejemplo 2:</h4>
-                        <p>transform: rotate(-45rad);</p>
+                        <p>transform: rotate(-45rad);</br>
+                        transition: transform 6s linear;
+                        </p>
                      
                     </div>
-            </div>
+                 </div>
 
-<!---------------------------------------------------------------ROTATEX--------------------------------------->
-            <div class="valor">
-                <h3>transform:rotateX()</h3>
-                                        
+<!---------------------------------------------------------------ROTATEX------------EJEMPLO 3--------------------------->
+                <div class="valor">
+                    <h3>transform:rotateX();</h3>
+                                            
 
-                <div class="figura tres">
+                    <div class="figura tres">
 
-                </div>                  
-                <div class="nota">
-                    <h4>Ejemplo 3:</h4>
-                    <p>transform: rotateX(60deg);</p>
-                  
+                    </div>                  
+                    <div class="nota">
+                        <h4>Ejemplo 3:</h4>
+                        <p>transform: rotateX(60deg);</br>
+                        transition: transform 1s linear;
+                        </p>
+                    
+                    </div>
                 </div>
-            </div>
-<!-----------------------------------------------------------------ROTATEY------------------------------------------------>
+<!-----------------------------------------------------------------ROTATEY--------------EJEMPLO 4---------------------------------->
             <div class="valor">
-                <h3>transform:rotateY()</h3>
+                <h3>transform:rotateY();</h3>
                                         
 
                 <div class="figura cuatro">
@@ -79,15 +85,17 @@
                 </div>                  
                 <div class="nota">
                     <h4>Ejemplo 4:</h4>
-                    <p>transform: rotateY(50deg);</p>
+                    <p>transform: rotateY(50deg);</br>
+                    transition: transform 1s linear;
+                    </p>
                     
                 </div>
             </div>
 
-<!------------------------------------------------------------------ROTATEZ----------------------------------------------->
+<!------------------------------------------------------------------ROTATEZ----------------EJEMPLO 5------------------------------->
 
             <div class="valor">
-                <h3>transform:rotateZ()</h3>
+                <h3>transform:rotateZ();</h3>
                                         
 
                 <div class="figura cinco">
@@ -95,86 +103,298 @@
                 </div>                  
                 <div class="nota">
                     <h4>Ejemplo 5:</h4>
-                    <p>transform: rotateZ(80deg);</p>
+                    <p>transform: rotateZ(80deg);</br>
+                    transition: transform 1s linear;
+                    </p>
                     
                 </div>
             </div>
 
-  <!-------------------------------------------------------------------------------------------------------------s-->          
+        <hr>
 
 
-
-
-
-                <div class="valor">
-                    <h3>Nombre de la propiedad aplicada</h3>
-               
-                    <div class="figura">figura
-
-                    </div>                  
-                    <div class="nota">
-                        <p>lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Perspiciatis exercitationem totam ex, tempore quis tenetur culpa 
-                            corrupti, eius et ea hic provident dolorem vitae obcaecati architecto 
-                            facilis ipsa aspernatur sunt?
-                        </p>
-                    </div>
-            </div>
-
-
-
+   <!--------------------------------------------------transform-origin--------------------------------------------------->     
+ 
+   <!------------------------------------------------------EJEMPLO 6----------------------------------------------------------------->          
+            
+  
             <div class="valor">
-                <h3>Nombre de la propiedad aplicada</h3>
-           
-                <div class="figura">figura
+                <h3>transform-origin();</h3>
+                <p>Indica cuál será el punto de origen desde el que se transforma el elemento. 
+                Tiene 2 valores, el primero indica la coordenada 'x' del origen:
+                <b>transform-origin:[porcentaje | medida | left | center | right]</b>
+                El segundo valor indica la coordenada 'y', que puede expresarse en:    
+                <b>transform-origin:[porcentaje | medida | top | center | bottom]</b></p>                    
+
+                <div class="figura seis">
 
                 </div>                  
                 <div class="nota">
-                    <p>lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perspiciatis exercitationem totam ex, tempore quis tenetur culpa 
-                        corrupti, eius et ea hic provident dolorem vitae obcaecati architecto 
-                        facilis ipsa aspernatur sunt?
+                    <h4>Ejemplo 6:</h4>
+                    <p>transform: rotate(30deg); <br>
+                    transform-origin: right bottom;</br>
+                    transition: transform 1s linear;
                     </p>
+                    
                 </div>
-        </div>
+            </div>
+
+
+ <!----------------------------------------------------EJEMPLO 7--------------------------------------------------------------->
+
+            <div class="valor">
+                <h3>transform-origin();</h3>
+                                        
+
+                <div class="figura diez">
+
+                </div>                  
+                <div class="nota">
+                    <h4>Ejemplo 7:</h4>
+                    <p> transform: rotate(30deg);</br>
+                        transform-origin: center bottom;</br>
+                        transition: transform 1s linear;
+                    </p>
+                
+                </div>
+            </div>
+
+
+ <!-------------------------------------------------------EJEMPLO 8-------------------------------------------------------> 
+ 
+ 
+            <div class="valor">
+                <h3>transform-origin();</h3>
+                                        
+
+                <div class="figura once">
+
+                </div>                  
+                <div class="nota">
+                    <h4>Ejemplo 8:</h4>
+                    <p> transform: rotate(30deg);</br>
+                        transform-origin: left bottom;</br>
+                        transition: transform 1s linear;
+                    </p>
+                
+                </div>
+            </div>
+
+<!------------------------------------------------------EJEMPLO 9-------------------------------------------------------------->
+                <div class="valor">
+                    <h3>transform-origin();</h3>
+                                            
+
+                    <div class="figura siete">
+
+                    </div>                  
+                    <div class="nota">
+                        <h4>Ejemplo 9:</h4>
+                        <p> transform: rotate(30deg);</br>
+                         transform-origin: center top;</br>
+                         transition: transform 1s linear;
+                        </p>
+                    
+                    </div>
+                </div>
+
+<!------------------------------------------------EJEMPLO 10----------------------------------------------------------------------->
+            <div class="valor">
+                <h3>transform-origin();</h3>
+                                        
+
+                <div class="figura ocho">
+
+                </div>                  
+                <div class="nota">
+                    <h4>Ejemplo 10:</h4>
+                    <p> transform: rotate(30deg);</br>
+                        transform-origin: left top;</br>
+                        transition: transform 1s linear;
+                    </p>
+                
+                </div>
+            </div>
+
+            
+<!----------------------------------------------------EJEMPLO 11------------------------------------------------------------------->
+
+            <div class="valor">
+                <h3>transform-origin();</h3>
+                                        
+
+                <div class="figura nueve">
+
+                </div>                  
+                <div class="nota">
+                    <h4>Ejemplo 11:</h4>
+                    <p> transform: rotate(30deg);</br>
+                        transform-origin: right top;</br>
+                        transition: transform 1s linear;
+                    </p>
+                        
+                </div>
+            </div>
+
+<!-----------------------------------------------------------EJEMPLO 12------------------------------------------------>
+            
+            <div class="valor">
+                <h3>transform-origin();</h3>
+                                        
+
+                <div class="figura doce">
+
+                </div>                  
+                <div class="nota">
+                    <h4>Ejemplo 12:</h4>
+                    <p> transform: rotate(360deg);</br>
+                        transform-origin: top left;</br>
+                        transition: transform 5s linear;
+                    </p>
+                
+                </div>
+            </div>
+
+<!--------------------------------------------------EJEMPLO 13---------------------------------------------------------------------->
+
+            <div class="valor">
+                <h3>transform-origin();</h3>
+                                        
+
+                <div class="figura trece">
+
+                </div>                  
+                <div class="nota">
+                    <h4>Ejemplo 13:</h4>
+                    <p> transform: rotate(360deg);</br>
+                        transform-origin: center center;</br>
+                        transition: transform 1s linear;
+                    </p>
+                
+                </div>
+            </div>
+
+<!---------------------------------------------------EJEMPLO 14----------------------------------------------------------------------->
+            <div class="valor">
+                <h3>transform-origin();</h3>
+                                        
+
+                <div class="figura catorce">
+
+                </div>                  
+                <div class="nota">
+                    <h4>Ejemplo 14:</h4>
+                    <p> transform: rotate(30deg);</br>
+                        transform-origin: 10% 15%;</br>
+                        transition: transform 1s linear;
+                    </p>
+                
+                </div>
+            </div>
+
+
+            <hr>
+
+
+<!---------------------------------------------------translate----------------------------------------------------------------->
+
+        
+<!------------------------------------------------------------------------EJEMPLO 15----------------------------------------->
 
         <div class="valor">
-            <h3>Nombre de la propiedad aplicada</h3>
-       
-            <div class="figura">figura
+            <h3>transform: translate();</h3>
+            <p>Cambia la posición del elemento (traslación), moviéndolo hacia donde indican los parámetros 'x', 'y'.</p>                   
+
+            <div class="figura quince">
 
             </div>                  
             <div class="nota">
-                <p>lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis exercitationem totam ex, tempore quis tenetur culpa 
-                    corrupti, eius et ea hic provident dolorem vitae obcaecati architecto 
-                    facilis ipsa aspernatur sunt?
+                <h4>Ejemplo 15:</h4>
+                <p>transform: translate(500px); </br>
+                transition: transform 6s linear;
                 </p>
+                
             </div>
-    </div>
-
-    <div class="valor">
-        <h3>Nombre de la propiedad aplicada</h3>
-   
-        <div class="figura">figura
-
-        </div>                  
-        <div class="nota">
-            <p>lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis exercitationem totam ex, tempore quis tenetur culpa 
-                corrupti, eius et ea hic provident dolorem vitae obcaecati architecto 
-                facilis ipsa aspernatur sunt?
-            </p>
         </div>
-</div>
 
+<!--------------------------------------------------------------------------------EJEMPLO DIECISEIS--------------->
 
+            <div class="valor">
+                <h3>transform:translate();</h3>
+                                        
 
+                <div class="figura dieciseis">
 
-
+                </div>                  
+                <div class="nota">
+                    <h4>Ejemplo 16:</h4>
+                    <p>transform: translate(-500px); </br>
+                    transition: transform 6s linear;
+                    </p>
+                
+                </div>
             </div>
+
+<!--------------------------------------------------------------------------------EJEMPLO DIECISEIS--------------->
+            <div class="valor">
+                <h3>transform:translate();</h3>
+                                        
+
+                <div class="figura diecisiete">
+
+                </div>                  
+                <div class="nota">
+                    <h4>Ejemplo 17:</h4>
+                    <p>transform: translateX(200px); </br>
+                    transition: transform 6s linear;
+                    </p>
+                
+                </div>
+            </div>
+
+
+<!--------------------------------------------------------------------------------EJEMPLO DIECIOCHO--------------->
+
+            <div class="valor">
+                <h3>transform:translate();</h3>
+                                        
+
+                <div class="figura dieciocho">
+
+                </div>                  
+                <div class="nota">
+                    <h4>Ejemplo 18:</h4>
+                    <p> transform: translateY(-150px);</br>
+                    transition: transform 6s linear;
+                    </p>
+                
+                </div>
+            </div>
+
+
+<!-------------------------------------------------------------------------------EJEMPLO DIECINUEVE------------------->
+        <div class="valor">
+            <h3>transform:translate();</h3>
+                                    
+
+            <div class="figura diecinueve">
+
+            </div>                  
+            <div class="nota">
+                <h4>Ejemplo 19:</h4>
+                <p> transform: translate(70px, 30px);</br>
+                transition: transform 5s linear;
+                </p>
+            
+            </div>
+        </div>
+
+
+<!---------------------------------------------------------------------------------------FIN----------------------------->
+
+     </div>
            
-        </main>
+</main>
 
     </div>
 </body>
